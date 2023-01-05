@@ -50,3 +50,4 @@ After converting the British prices to Euros, it can be seen that the Italian ma
 
 > The MGP supply and demand volume distribution.
 
+Whilst imports from foreign countries may clear at a slightly higher price, the vast majority of supply and demand volume comes from Italy itself - or more specifically, North Italy. 

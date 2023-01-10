@@ -115,4 +115,8 @@ Opting for a larger battery capable of discharging over two hours shows to incre
 
 A two hour dual cycle, again with one before and one after midday has shown to increase revenue again but by less than 50% for all regions when comparing with a two hour single cycle battery. The GB comparison sits at 100.8 k€/MW.
 
+## Comments
+
 What is interesting is that before the volatility increase in 2021, it was Scicily and the South that had the potential to yield the highest returns, yet now it is the North and Central North in every analysis.
+
+It should be noted that the analyses into the different cycle length and (dis)charging durations is relatively low level and is only used to provide an indication into potential revenue and as a comparison to other markets. It relies on several assumptions such as the ability to perfectly forecasts the peaks and troughs of the Day-Ahead prices. It also does not take into account the state of the battery e.g. if the battery finishes the day prior fully charged, it cannot be charged again in the morning of the following day and vice versa.

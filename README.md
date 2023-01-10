@@ -78,7 +78,7 @@ It is clear to see that the difference between the peaks and troughs is much gre
 ### One hour single cycle
 
 <p align='center'>
-  <img src='figures/single-cycle-rev.jpeg' width='800'>
+  <img src='figures/single-cycle-1hr.jpeg' width='800'>
 </p>
 
 > Zonal comparison for a single cycle one hour battery.
@@ -88,11 +88,31 @@ The revenue from a single cycle battery is easily calculated by subtracting the 
 ### One hour dual cycle
 
 <p align='center'>
-  <img src='figures/dual-cycle-rev.jpeg' width='800'>
+  <img src='figures/dual-cycle-1hr.jpeg' width='800'>
 </p>
 
 > Zonal comparison for a dual cycle one hour battery.
 
-The revenue from a cycling a battery twice a day can be calculated by splitting the day into a morning and evening cycle. After inspecting the price profile shown in the previous section, which demonstrates two peaks and two troughs, it is a safe assumption that a dual cycle battery will charge and discharge once before 12pm and once after. Following this the potential revenue can be calculated again which again demonstrates the North and Central North regions returning the most, although the order of the bottom three regions is slightly shuffled. This can be compared to the GB market again, which has the potential to return 59.4 k€/MW for a one hour battery operating two cycles a day - far lower than any region in Italy.
+The revenue from a cycling a battery twice a day can be calculated by splitting the day into a morning and evening cycle. After inspecting the price profile shown in the previous section, which demonstrates two peaks and two troughs, it is a safe assumption that a dual cycle battery will charge and discharge once before 12pm and once after. Following this the potential revenue can be calculated again which again demonstrates the North and Central North regions returning the most, although the order of the bottom three regions is slightly shuffled. This can be compared to the GB market again, which has the potential to return 59.4 k€/MW for a one hour battery operating two cycles a day - far lower than any region in Italy. This is likely due to the fact that the GB price profile does not seem to have a morning peak as in Italy - the higher prices tend to fall in the evening and hence does not benefit from an additional morning cycle to the same extent.
 
-What is interesting is that before the volatility increase in 2021, it was Scicily and the South that had the potential to yield the highest returns.
+### Two hour single cycle
+
+<p align='center'>
+  <img src='figures/single-cycle-2hr.jpeg' width='800'>
+</p>
+
+> Zonal comparison for a single cycle two hour battery.
+
+Opting for a larger battery capable of discharging over two hours shows to increase revenue by around 50%, depending on the region. For the majority of regions the increase in revenue is less that 50%, implying that the increase in revenue on battery size is not linear. These values can be compared with GB which is produces returns of 93.2 k€/MW.
+
+### Two hour dual cycle
+
+<p align='center'>
+  <img src='figures/dual-cycle-2hr.jpeg' width='800'>
+</p>
+
+> Zonal comparison for a dual cycle two hour battery.
+
+A two hour dual cycle, again with one before and one after midday has shown to increase revenue again but by less than 50% for all regions when comparing with a two hour single cycle battery. The GB comparison sits at 100.8 k€/MW.
+
+What is interesting is that before the volatility increase in 2021, it was Scicily and the South that had the potential to yield the highest returns, yet now it is the North and Central North in every analysis.

@@ -63,9 +63,17 @@ By averaging the PUN of each hour, the price profile can be seen to have two cle
 Whilst imports from foreign countries may clear at a slightly higher price, the vast majority of supply and demand volume comes from Italy itself - or more specifically, North Italy. 
 
 
-## Analysis
+## 2022 analysis
 
 To find the optimal battery size and location, the potential revenue in 2022 will be calculated from batteries of different sizes and cycle patterns. It should be noted that the revenues calculated are a best case scenario - they are only achievable given a perfect forecasting model which allows the operator to charge and discharge at the peaks and troughs throught the day.
+
+<p align='center'>
+  <img src='figures/gb-italy-da.jpeg' width='800'>
+</p>
+
+> A comparison of the Italian and British Day-Ahead daily peaks and troughs.
+
+It is clear to see that the difference between the peaks and troughs is much greater in the Italian market, and therefore is much likely to return a larger revenue.
 
 ### One hour single cycle
 
@@ -86,3 +94,5 @@ The revenue from a single cycle battery is easily calculated by subtracting the 
 > Zonal comparison for a dual cycle one hour battery.
 
 The revenue from a cycling a battery twice a day can be calculated by splitting the day into a morning and evening cycle. After inspecting the price profile shown in the previous section, which demonstrates two peaks and two troughs, it is a safe assumption that a dual cycle battery will charge and discharge once before 12pm and once after. Following this the potential revenue can be calculated again which again demonstrates the North and Central North regions returning the most, although the order of the bottom three regions is slightly shuffled. This can be compared to the GB market again, which has the potential to return 59.4 k€/MW for a one hour battery operating two cycles a day - far lower than any region in Italy.
+
+What is interesting is that before the volatility increase in 2021, it was Scicily and the South that had the potential to yield the highest returns.

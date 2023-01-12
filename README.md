@@ -118,7 +118,7 @@ A two hour dual cycle, again with one before and one after midday has shown to i
 
 ### Four hour dual cycle
 
-A slighlty different approach is taken to analyse four hour battery operating on a morning and evening cycle. By looking at the price profile in the previous section, we assume two charging cycles take place between 03:00-07:00 and 13:00-17:00 and two discharging cycles between 08:00-12:00 and 19:00-23:00. Then the maximum price of each charging period is plotted alongside the minimum price of each dischargin period to see how many days a year the price profile is desireable.
+A slighlty different approach is taken to analyse four hour battery operating on a morning and evening cycle. By looking at the price profile in the previous section, we assume two charging cycles take place between 03:00-07:00 and 13:00-17:00 and two discharging cycles between 08:00-12:00 and 19:00-23:00. Then the maximum price of each charging period is plotted alongside the minimum price of each dischargin period to see how many days a year the price profile is desireable. This charging and discharging profile brings in a revenue of 206 k€/MWh using the same charging and discharging times without any kind of forecasting required.
 
 <p align='center'>
   <img src='figures/italy-4hr-profile-analysis.jpeg' width='800'>
@@ -126,7 +126,15 @@ A slighlty different approach is taken to analyse four hour battery operating on
 
 > 4 hour battery analysis over two cycle.
 
-The distribution between the two cycles is interesting: the evening cycle shows a lot more 'bad' days in the winter whereas the morning is more distributed, with a slightly heavier weighting for the summer months.
+The distribution between the two cycles is interesting: the evening cycle shows a lot more 'bad' days in the winter whereas the morning is more distributed, with a slightly heavier weighting for the summer months. This can be explained by the change in the price profile in the winter months as seen below.
+
+<p align='center'>
+  <img src='figures/hour-pun-22-winter.jpeg' width='800'>
+</p>
+
+> The PUN pofile over the winter months.
+
+By shifting the charging times 02:00-06:00 and 11:00-15:00 and discharging times 07:00-11:00 and 16:00-20:00 the annual revenue is increased from 206 to 213 k€/MWh.
 
 
 ## Comments

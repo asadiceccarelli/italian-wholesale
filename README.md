@@ -115,7 +115,29 @@ Opting for a larger battery capable of discharging over two hours shows to incre
 
 A two hour dual cycle, again with one before and one after midday has shown to increase revenue again but by less than 50% for all regions when comparing with a two hour single cycle battery. The GB comparison sits at 100.8 k€/MW.
 
+
+### Four hour dual cycle
+
+A slighlty different approach is taken to analyse four hour battery operating on a morning and evening cycle. By looking at the price profile in the previous section, we assume two charging cycles take place between 03:00-07:00 and 13:00-17:00 and two discharging cycles between 08:00-12:00 and 19:00-23:00. Then the maximum price of each charging period is plotted alongside the minimum price of each dischargin period to see how many days a year the price profile is desireable.
+
+<p align='center'>
+  <img src='figures/italy-4hr-profile-analysis.jpeg' width='800'>
+</p>
+
+> 4 hour battery analysis over two cycle.
+
+The distribution between the two cycles is interesting: the evening cycle shows a lot more 'bad' days in the winter whereas the morning is more distributed, with a slightly heavier weighting for the summer months.
+
+
 ## Comments
+
+The results are summarised below.
+
+<p align='center'>
+  <img src='figures/revenue-summarised.jpeg' width='800'>
+</p>
+
+> Potential zonal revenue across different cycling strategies.
 
 What is interesting is that before the volatility increase in 2021, it was Scicily and the South that had the potential to yield the highest returns, yet now it is the North and Central North in every analysis.
 

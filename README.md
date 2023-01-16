@@ -41,7 +41,7 @@ On the other hand, conversely to the GB market, the clearing price for buyers an
 
 > Clearing prices Italian MGP vs GB EPEX Day-Ahead market.
 
-After converting the British prices to Euros, it can be seen that the Italian market almost always clears at a higher price, but the the spread of the prices is of a more important factor as this is what will determine the revenue from trading. This will be inspected later.
+After converting the British prices to Euros, it can be seen that the Italian market on average as a higher clearing price but less of a spread. The spread is generally more important as is used when calculating potential revenue, and this will be inspected later.
 
 <p align='center'>
   <img src='figures/hour-pun-22.jpeg' width='800'>
@@ -73,7 +73,7 @@ To find the optimal battery size and location, the potential revenue in 2022 wil
 
 > A comparison of the Italian and British Day-Ahead daily peaks and troughs.
 
-It is clear to see that the difference between the peaks and troughs is much greater in the Italian market, and therefore is much likely to return a larger revenue.
+It is clear to see that the Italian market is much less volatile, with fewer spiked such as the ~3000 €/MWh on 21/12 that GB had. This indicates that whilst the market may be more predictable leading to a greater chance at an increased revenue, given a perfect forecasting model the calculated max revenue for Italy is likely to be less.
 
 ### One hour single cycle
 
@@ -83,7 +83,7 @@ It is clear to see that the difference between the peaks and troughs is much gre
 
 > Zonal comparison for a single cycle one hour battery.
 
-The revenue from a single cycle battery is easily calculated by subtracting the PUN minimum from the zonal peak of each day and summing each day's revenue together over the course of the year. The North and Central North regions of Italy generate a higher revenue than the rest of the country, however there less than 3 k€/MW difference. The GB Day-Ahead market, on the other hand, had the potential to generate 50.5 k€/MW in 2022, which is less than every region in Italy.
+The revenue from a single cycle battery is easily calculated by subtracting the PUN minimum from the zonal peak of each day and summing each day's revenue together over the course of the year. The North and Central North regions of Italy generate a higher revenue than the rest of the country, however there less than 3 k€/MW difference. The GB Day-Ahead market, on the other hand, had the potential to generate 65.7 k€/MW in 2022, which is more than every region in Italy.
 
 ### One hour dual cycle
 
@@ -93,7 +93,7 @@ The revenue from a single cycle battery is easily calculated by subtracting the 
 
 > Zonal comparison for a dual cycle one hour battery.
 
-The revenue from a cycling a battery twice a day can be calculated by splitting the day into a morning and evening cycle. After inspecting the price profile shown in the previous section, which demonstrates two peaks and two troughs, it is a safe assumption that a dual cycle battery will charge and discharge once before 12pm and once after. Following this the potential revenue can be calculated again which again demonstrates the North and Central North regions returning the most, although the order of the bottom three regions is slightly shuffled. This can be compared to the GB market again, which has the potential to return 59.4 k€/MW for a one hour battery operating two cycles a day - far lower than any region in Italy. This is likely due to the fact that the GB price profile does not seem to have a morning peak as in Italy - the higher prices tend to fall in the evening and hence does not benefit from an additional morning cycle to the same extent.
+The revenue from a cycling a battery twice a day can be calculated by splitting the day into a morning and evening cycle. After inspecting the price profile shown in the previous section, which demonstrates two peaks and two troughs, it is a safe assumption that a dual cycle battery will charge and discharge once before 12pm and once after. Following this the potential revenue can be calculated again which again demonstrates the North and Central North regions returning the most, although the order of the bottom three regions is slightly shuffled. This can be compared to the GB market again, which has the potential to return 96.4 k€/MW for a one hour battery operating two cycles a day - which has a increased at a slower rate in comparison to the single cycle one-hour battery. This is likely due to the fact that the GB price profile does not seem to have a morning peak as in Italy - the higher prices tend to fall in the evening and hence does not benefit from an additional morning cycle to the same extent.
 
 ### Two hour single cycle
 
@@ -103,7 +103,7 @@ The revenue from a cycling a battery twice a day can be calculated by splitting 
 
 > Zonal comparison for a single cycle two hour battery.
 
-Opting for a larger battery capable of discharging over two hours shows to increase revenue by around 50%, depending on the region. For the majority of regions the increase in revenue is less that 50%, implying that the increase in revenue on battery size is not linear. These values can be compared with GB which is produces returns of 93.2 k€/MW.
+Opting for a larger battery capable of discharging over two hours shows to increase revenue by around 50%, depending on the region. For the majority of regions the increase in revenue is less that 50%, implying that the increase in revenue on battery size is not linear. These values can be compared with GB which is produces returns of 122.3 k€/MW.
 
 ### Two hour dual cycle
 
@@ -113,7 +113,7 @@ Opting for a larger battery capable of discharging over two hours shows to incre
 
 > Zonal comparison for a dual cycle two hour battery.
 
-A two hour dual cycle, again with one before and one after midday has shown to increase revenue again but by less than 50% for all regions when comparing with a two hour single cycle battery. The GB comparison sits at 100.8 k€/MW.
+A two hour dual cycle, again with one before and one after midday has shown to increase revenue again but by less than 50% for all regions when comparing with a two hour single cycle battery. The GB comparison sits at 176.5 k€/MW.
 
 
 ### Four hour dual cycle
